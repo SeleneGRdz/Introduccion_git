@@ -8,9 +8,15 @@ int suma(int a, int b)
 
 int resta(int a, int b)
 {
+<<<<<<< HEAD
     if(b>0)
     {
         return b;
+=======
+    if(a<0)
+    {
+        return 0;
+>>>>>>> prueba
     }
     return a - b;
 }
